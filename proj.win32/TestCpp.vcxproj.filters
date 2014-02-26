@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\simple_cocos2dx">
+      <UniqueIdentifier>{538f3018-8f0c-4d1d-952f-a9246a3d7b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\test">
+      <UniqueIdentifier>{4e9b94e9-a363-4549-904f-7d738e119545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\simple_cocos2dx\algorithm">
+      <UniqueIdentifier>{28e3c338-1d61-4ab3-8d3c-f50ff2a5cb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\simple_cocos2dx\function-inl">
+      <UniqueIdentifier>{5ad63b1e-2b1b-4ed8-8216-af6632359dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\simple_cocos2dx\gui">
+      <UniqueIdentifier>{a35b3f32-1866-4bdc-be7e-7a7e245b09f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\simple_cocos2dx\json">
+      <UniqueIdentifier>{b7ead1ac-b897-4dd5-b542-4b6fab5e363e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\simple_cocos2dx\touch-sprite">
+      <UniqueIdentifier>{c623331f-4841-43b7-87ab-e9633ce59c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\simple_cocos2dx\config">
+      <UniqueIdentifier>{57b1da91-b729-414b-9133-fb8278251769}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\test.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\simple_cocos2dx\touch-sprite\TouchSprite.cpp">
+      <Filter>Classes\simple_cocos2dx\touch-sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\simple_cocos2dx.h">
+      <Filter>Classes\simple_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\test.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\config\config.h">
+      <Filter>Classes\simple_cocos2dx\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\algorithm\node-inl.h">
+      <Filter>Classes\simple_cocos2dx\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\function-inl\make_animate.h">
+      <Filter>Classes\simple_cocos2dx\function-inl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\function-inl\make_item-inl.h">
+      <Filter>Classes\simple_cocos2dx\function-inl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\function-inl\make_sprite-inl.h">
+      <Filter>Classes\simple_cocos2dx\function-inl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\function-inl\make_ttf-inl.h">
+      <Filter>Classes\simple_cocos2dx\function-inl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\function-inl\string-inl.h">
+      <Filter>Classes\simple_cocos2dx\function-inl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\touch-sprite\TouchSprite.h">
+      <Filter>Classes\simple_cocos2dx\touch-sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\simple_cocos2dx\touch-sprite\TouchSprite-inl.h">
+      <Filter>Classes\simple_cocos2dx\touch-sprite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
